@@ -1,0 +1,43 @@
+Hello!
+Contact me at reddit.com/u/Cyontastic for any questions/comments.
+
+This (help.txt) is a small little tool so that you can understand how to use my skin.
+Forgive any spelling/grammatical errors!
+
+Yes, this might be a lot of reading, SORRY!
+
+I put some time into making this as easy to understand/edit/change as possible. I tried to make it very simple to change radius
+size, colors, font sizes, etc. Here's a little "tutorial" for how use do it.
+
+To edit the basic settings, launch "settings-LIGHT background.ini" in Rainmeter. If your background is black or very dark, run 
+"settings-DARK background.ini". Once this has loaded, you can click on any of the values to change them. NOTE: If you do edit a
+value, make sure you press ENTER to make it save; otherwise, it WON'T save. To avoid a lot of refreshing, once you are content 
+with the settings you have changes, press the "*Refresh all CircleMeters*" option. This will refresh ONLY my meters, NOT any 
+others (you're welcome). If you wish you refresh all meters, (why?) you can middle-click it. Since I'm so nice, I also added 
+"tool tip boxes" for each setting to explain what each one does.
+
+Here's some FAQ:
+
+	Q1: Why, in the DL and UL skins, is the information's FontSize not the same as in, say, the RAM?
+	A1: Well, if I made them the same, you would see the text showing through under the circles. Sorry if it bothers you.
+	
+	Q2: The text in some of the meters is not centered, but not all of them! How do I fix this?
+	A2: Yes, sometimes the radius and fontsize settings mess up the centering. To fix this, go the the meters that is broken
+	   and do these steps:
+	   1) Find the [Variables] section.
+	   2) Underneath the line that says "DistanceApart=#AllDistanceApart#" write either:
+			CenteringValueInfo=-20 
+			-AND/OR-
+			CenteringValueTitle=-20
+	   3) If the information is messed up, use the first. Title, second.
+	   4) Change the value after the = to whatever makes it look centered. This will override whatever value is set in the settings.
+	
+	Q3: How did you do this? I'm a Rainmeter noob and don't understand.
+	A3: It's really not that hard. Look through the code if you want. It's a really straight forward "language." If you want help
+	   or don't understand something, send me a message at reddit.com/u/Cyontastic. I'd love to help out.
+	   
+	Q4: I'm not a Rainmeter noob, so why did you make this help.txt?
+	A4: I learned from reading through other people's code, I hope someone can learn from this.
+	
+	Q5: I want to change the FontSize per meter. How?
+	A5: Same as in Q2, just add either InfoFontSize or TitleFontSize in the same spot.
